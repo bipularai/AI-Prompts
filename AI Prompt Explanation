@@ -6,5 +6,63 @@ BENEFITS OF AI PROMPTS:
          Less rewriting
          More control over the AI'S output
 TYPES OF AI PROMPTS:
-        1.instruction prompt
+        1.instruction prompt:
+                   You tell the AI exactly what to do. ("eg.: Explain cloud computing in simple words")
+        2. question prompt:
+                   You ask a questiion.("eg. What is SEO and why is it important?")
+        3. Role-Based prompt:
+                   You assign the AI a role.("eg. you are an seo specilist")
+        4. Format-Based prompt:
+                   You tell the AI what output format you want.("eg. : write in bullet points")
+        5. Rewrite/Improve Prompte:
+                   you want to improve something you already worte.("eg. : Rewrite this paragraph to make it more professional.")
+        6. Creative prompt:
+                   you ask the AI to imagine something.("eg. write a story about a robot who learns emotions")
+        7. Few-Shot prompting(ADVANCED):
+                  You show examples and ask AI to follow the pattern
+                   EXAMPLE:
+                      "Example 1:input-> A, output-> 1"
+                       Example 2:input-> B, output-> w
+                        now: input->c"
+                      AI-> "3"
+5 RULES OF WRITING A GOOD AI PROMPT:
+         1.Be clear
+         2.Add details(more details =better output.)
+         3.Set the role
+         4.Set the format
+         5.Give Examples
+PERFFECT PROMT STRUCTURE:
+[Role]  
+[Task]  
+[Details]  
+[Format]  
+[Examples (optional)]
+--------------------------
+You are a .NET expert.
+Explain Async/Await.
+Use very simple words.
+Write in 5 bullet points.
+
+PROMPT ENGINEERING:
+               Prompt engineering is the skill of writing clear instructions to get the exact output you want from AI.
+
+ADVANCED PROMPT EXAMPLE(FULL STRUCTURE)
+ROLE:
+You are a senior .NET instructor.
+
+CONTEXT:
+You are teaching students who are completely new to the concept.
+
+TASK:
+Explain Dependency Injection.
+
+CONSTRAINTS:
+Use very simple words.
+Keep the explanation short.
+Give one real-life example.
+
+OUTPUT FORMAT:
+Write in 5 bullet points.
+
+
       
